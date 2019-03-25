@@ -1,9 +1,9 @@
-from search_string import google_search
+from search_string import search_string
 
 
 def main():
-    search_str = input('Enter the string to search: \n')
-    google_search(search_str)
+    search_key = input('Enter the string to search: \n')
+    search_string(search_key)
 
 
 if __name__ == '__main__':
